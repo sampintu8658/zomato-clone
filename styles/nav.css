@@ -1,3 +1,8 @@
+header {
+  position: absolute;
+  width: 100%;
+}
+
 nav {
   width: 80%;
   font-weight: 200;
