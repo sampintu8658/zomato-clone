@@ -6,6 +6,7 @@
 }
 
 .options {
+  margin: auto;
   margin-bottom: 6rem;
   width: 100%;
   position: relative;
@@ -20,7 +21,7 @@
   -webkit-box-flex: 0;
   flex-grow: 0;
   flex-shrink: 0;
-  max-width: 30%;
+  flex: 1;
   border-radius: 1.2rem;
   overflow: hidden;
   height: 24rem;
