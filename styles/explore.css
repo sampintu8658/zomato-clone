@@ -1,0 +1,13 @@
+.explore-options {
+  padding: 5rem 0;
+  width: 110rem;
+  margin: auto;
+}
+
+.explore-options .heading {
+  margin: 0px 0px 2rem;
+  color: rgb(54, 54, 54);
+  font-size: 3rem;
+  line-height: 4rem;
+  font-weight: 500;
+}
