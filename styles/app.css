@@ -119,3 +119,15 @@ input[type="radio"] {
   height: 4rem;
   cursor: pointer;
 }
+
+@media (max-width: 800px) {
+  .content {
+    margin-top: 7.5rem;
+    max-width: 42.4rem;
+    margin: 0px 2.4rem;
+  }
+
+  .content .phone-image {
+    display: none;
+  }
+}

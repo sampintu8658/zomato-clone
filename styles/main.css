@@ -226,3 +226,78 @@
 .locality:hover {
   box-shadow: rgba(28, 28, 28, 0.08) 0px 4px 8px;
 }
+
+@media (max-width: 800px) {
+  .main-body {
+    margin: 0px 2.4rem;
+  }
+
+  .main-body .option {
+    height: auto;
+  }
+
+  .info .title {
+    font-size: 1.4rem;
+    line-height: 1.2;
+  }
+
+  .info .description {
+    font-size: 1.2rem;
+    font-weight: 200;
+  }
+
+  .collection {
+    height: 17.7rem;
+  }
+
+  .overlay {
+    height: 17.7rem;
+  }
+
+  .image {
+    height: 17.7rem;
+  }
+
+  .email-input .btn {
+    content: "Share";
+  }
+}
+
+@media (max-width: 500px) {
+  .main-body .option {
+    max-width: 45%;
+    flex: auto;
+  }
+
+  .main-body .see-more {
+    display: none;
+  }
+
+  .heading-2 {
+    font-size: 2rem;
+    line-height: 3.2rem;
+  }
+
+  .desc-see-more h6 {
+    font-size: 1.2rem;
+  }
+
+  .collections-list {
+    flex-wrap: wrap;
+  }
+
+  .collection {
+    max-width: 45%;
+  }
+
+  .popular-localities .title {
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    margin-bottom: 2rem;
+  }
+
+  .locality {
+    width: 100%;
+  }
+}

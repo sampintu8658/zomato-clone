@@ -120,3 +120,45 @@ main .search_container .search .search_box {
   width: 100%;
   border-radius: 0.8rem;
 }
+
+@media (max-width: 800px) {
+  main .main-logo {
+    height: 3rem;
+    width: 16rem;
+    position: relative;
+  }
+
+  main .search_container {
+    width: calc(100% - 2.4rem);
+    flex-direction: column;
+  }
+
+  main .search_container .location {
+    margin-top: 1.2rem;
+    margin-bottom: 0.8rem;
+    justify-content: space-between;
+    width: 100%;
+    gap: 2rem;
+    height: 5rem;
+  }
+
+  main .search_container .location input {
+    flex: 1;
+  }
+
+  main .search_container .search {
+    margin-top: 1.8rem;
+    background-color: white;
+    padding: 1.5rem 1rem;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  main .search_container .search .search_icon {
+    width: fit-content;
+  }
+
+  main .search_container .search input {
+    margin-left: 1.5rem;
+  }
+}
