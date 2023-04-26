@@ -130,4 +130,8 @@ input[type="radio"] {
   .content .phone-image {
     display: none;
   }
+
+  .app-section {
+    padding: 0 1rem;
+  }
 }

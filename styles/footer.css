@@ -5,6 +5,7 @@ footer {
   -webkit-box-pack: center;
   justify-content: center;
   margin: auto;
+  flex-wrap: wrap;
 }
 
 .footer-data {
@@ -91,6 +92,10 @@ footer .footer-top {
   width: 100%;
 }
 
+.row {
+  flex-wrap: wrap;
+}
+
 .middle .column {
   gap: 20px;
 }
@@ -146,5 +151,24 @@ footer .end {
 
   .socials {
     display: none;
+  }
+
+  footer .footer-top {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  footer .footer-top img {
+    margin-bottom: 3rem;
+  }
+
+  section .row {
+    flex-wrap: wrap;
+  }
+
+  .middle .footer-links {
+    max-width: 50%;
+    margin-bottom: 3rem;
+    font-size: 1.6rem;
   }
 }
